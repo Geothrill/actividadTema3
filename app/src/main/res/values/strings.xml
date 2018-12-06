@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Datos Personales</string>
+    <string name="txtName">Nombre</string>
+    <string name="txtSurname">Apellido</string>
+    <string name="txtNumber">Edad</string>
+    <string name="hasChildren">¿Tiene hijos?</string>
+    <string name="rbFemale">Mujer</string>
+    <string name="rbMale">Hombre</string>
+    <string name="civilStat">Estado civil:</string>
+    <string name="reset">Reset</string>
+    <string name="send">Enviar</string>
+    <string name="married">"casado "</string>
+    <string name="single">"soltero "</string>
+    <string name="widow">"viudo "</string>
+    <string name="other">"otro "</string>
+    <string-array name="valores">
+        <item>@string/married</item>
+        <item>@string/single</item>
+        <item>@string/widow</item>
+        <item>@string/other</item>
+    </string-array>
+    <string name="error1">Es necesario escribir un apellido</string>
+    <string name="error2">Es necesario escribir un nombre</string>
+    <string name="error3">Es necesario escribir una edad</string>
+    <string name="error4">Es necesario seleccionar un género</string>
+    <string name="under">menor de edad</string>
+    <string name="child">y tiene hijos</string>
+    <string name="over">mayor de edad</string>
+</resources>
