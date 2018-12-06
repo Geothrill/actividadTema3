@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Data</string>
+    <string name="txtName">Name</string>
+    <string name="txtSurname">Surname</string>
+    <string name="txtNumber">Age</string>
+    <string name="hasChildren">Do you have children?</string>
+    <string name="rbFemale">Woman</string>
+    <string name="rbMale">Man</string>
+    <string name="civilStat">Civil Status:</string>
+    <string name="reset">Reset</string>
+    <string name="send">Send</string>
+    <string name="married">"married "</string>
+    <string name="single">"single "</string>
+    <string name="widow">"widow "</string>
+    <string name="other">"other "</string>
+    <string name="error1">Please write a surname</string>
+    <string name="error2">Please write a name</string>
+    <string name="error3">Please write an age</string>
+    <string name="error4">Please select a gender</string>
+    <string name="under">minor</string>
+    <string name="over">adult</string>
+    <string name="child">and has children</string>
+</resources>
