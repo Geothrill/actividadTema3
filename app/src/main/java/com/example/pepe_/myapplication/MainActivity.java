@@ -1,7 +1,6 @@
 package com.example.pepe_.myapplication;
 
 import android.content.res.Resources;
-import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -64,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 rbMale.setChecked(false);
                 hasChildren.setChecked(false);
                 txtResult.setText("");
+                mcStatus.setSelection(0);
             }
         });
 
@@ -74,17 +74,17 @@ public class MainActivity extends AppCompatActivity {
                 boolean gender = !rbMale.isChecked();
                 boolean child = hasChildren.isChecked();
                 if (txtSurname.getText().toString().matches("")){
-                    txtResult.setTextColor(Color.RED);
+                    txtResult.setTextColor(getResources().getColor(R.color.red));
                     txtResult.setText( R.string.error1);
                 }
                 else{
                     if (txtName.getText().toString().matches("")){
-                        txtResult.setTextColor(Color.RED);
+                        txtResult.setTextColor(getResources().getColor(R.color.red));
                         txtResult.setText(R.string.error2);
                     }
                     else {
                         if (txtNumber.getText().toString().matches("")){
-                            txtResult.setTextColor(Color.RED);
+                            txtResult.setTextColor(getResources().getColor(R.color.red));
                             txtResult.setText(R.string.error3);
                         }
                         else {
