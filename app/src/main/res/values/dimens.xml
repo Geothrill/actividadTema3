@@ -6,9 +6,9 @@
     <dimen name="width_vertical_textarea">254dp</dimen>
     <dimen name="width_vertical_spinner">139dp</dimen>
     <dimen name="width_vertical_button">160dp</dimen>
-    <dimen name="width_horizontal_switch">242dp</dimen>
+    <dimen name="width_horizontal_switch">200dp</dimen>
     <dimen name="width_horizontal_rb">292dp</dimen>
-    <dimen name="width_horizontal_textarea">268dp</dimen>
+    <dimen name="width_horizontal_textarea">220dp</dimen>
     <dimen name="width_horizontal_result">400dp</dimen>350dp
     <dimen name="width_horizontal_group">454dp</dimen>
     <dimen name="width_horizontal_spinner">139dp</dimen>

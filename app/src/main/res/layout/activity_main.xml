@@ -36,7 +36,7 @@
         android:ems="10"
         android:hint="@string/txtNumber"
         android:inputType="number"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 
     <Switch
         android:id="@+id/hasChildren"
