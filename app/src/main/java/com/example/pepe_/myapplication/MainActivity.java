@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                         txtResult.setText(R.string.error2);
                     }
                     else {
-                        if (txtNumber.getText().toString().matches("")){ //asd
+                        if (txtNumber.getText().toString().matches("")){ 
                             txtResult.setTextColor(getResources().getColor(R.color.red));
                             txtResult.setText(R.string.error3);
                         }
