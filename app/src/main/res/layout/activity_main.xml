@@ -11,94 +11,109 @@
 
     <EditText
         android:id="@+id/txtName"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/width_vertical_textarea"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/txtName"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/txtSurname"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/width_vertical_textarea"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/margin"
         android:ems="10"
         android:hint="@string/txtSurname"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/txtNumber"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/width_vertical_textarea"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/margin"
         android:ems="10"
         android:hint="@string/txtNumber"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textColor="@color/black"/>
 
     <Switch
         android:id="@+id/hasChildren"
-        android:layout_width="242dp"
+        android:layout_width="@dimen/width_vertical_switch"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="@string/hasChildren" />
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/hasChildren"
+        android:textColor="@color/black"/>
 
     <RadioGroup
         android:id="@+id/rgGender"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black">
 
         <RadioButton
             android:id="@+id/rbFemale"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/width_vertical_rb"
             android:layout_height="wrap_content"
-            android:text="@string/rbFemale" />
+            android:text="@string/rbFemale"
+            android:textColor="@color/black"/>
 
         <RadioButton
             android:id="@+id/rbMale"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/width_vertical_rb"
             android:layout_height="wrap_content"
-            android:text="@string/rbMale" />
+            android:text="@string/rbMale"
+            android:textColor="@color/black"/>
     </RadioGroup>
 
     <TextView
         android:id="@+id/civilStat"
-        android:layout_width="match_parent"
+        android:layout_width="@dimen/width_vertical_textarea"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:capitalize="none"
-        android:text="@string/civilStat" />
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/civilStat"
+        app:fontFamily="@font/alike_angular"
+        android:textColor="@color/black"/>
 
     <Spinner
         android:id="@+id/mcStatus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/txtResult"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="@dimen/width_vertical_textarea"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:textColor="@color/black" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:layout_marginTop="@dimen/margin"
+        android:orientation="horizontal"
+        android:textColor="@color/black">
 
         <Button
             android:id="@+id/reset"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/width_vertical_button"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/reset" />
+            android:text="@string/reset"
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/send"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/width_vertical_button"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/send" />
+            android:text="@string/send"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 </LinearLayout>
